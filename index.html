@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="thanks">
+        <h1>Thanks your email has been sent</h1>
+    </div>
     <form action="https://formsubmit.co/jasonf8080@gmail.com" method="POST">
-        <input type="hidden" name="_subject" value="New submission!">
         <input type="email" name="email" placeholder="Email Address" required>
-        <input type="hidden" name="_next" value="thanks.html">
         <input type="text" name="name" placeholder="Write your message here" required>
         <button type="submit">Send</button>
    </form>
+   <script src="app.js"></script>
 </body>
 </html>
